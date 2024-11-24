@@ -1,0 +1,93 @@
+*{  
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: #222;
+}
+
+.header-top{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 2px #111;
+   
+}
+
+.LogoTipo{
+    font-size: 25px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #007cf0;
+}
+.navlinks a{
+    font-size: 16px;
+    color: #fff;
+    margin-left: 35px;
+}
+
+h1{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    min-height: 100vh;
+}
+
+#proyect3{
+    background-color: #2a2c2b;
+}
+
+
+.btn-personalizado{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: #111;
+    border: none;
+    color: #fff;
+    padding: 12px 22px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    text-shadow: 1px 1px 4px cadetblue;
+    transition: .3s ease;
+    &:hover{
+        border: 1px solid #8b019d;
+    }
+}
+
+
+
+
+/*Estilos del pie de pagina*/
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+    padding: 20px 10%;
+}
+.footer p{
+    font-size: 16px;
+    color: #fff;
+}
+.footer a{
+    font-size: 16px;
+    color: #fff;
+}
